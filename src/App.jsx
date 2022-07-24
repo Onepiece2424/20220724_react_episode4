@@ -7,6 +7,8 @@ import { ColoredMessage } from "./components/ColoredMessage";
 //App関数の定義
 //exportの記述で他のファイルでも使用できるようになる。
 export const App = () => {
+  console.log("レンダリング");
+
   //Stateの定義
   const [num, setNum] = useState(0);
   const onClickButton = () => {
