@@ -2,9 +2,9 @@ export const ColoredMessage = (props) => {
   console.log(props);
 
   const constStyle = {
-    color: "blue",
+    color: props.color,
     fontSize: "20px"
   };
 
-  return <p style={constStyle}>お元気ですか？</p>;
+  return <p style={constStyle}>{props.message}</p>;
 };
