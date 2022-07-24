@@ -1,13 +1,7 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+//ReactDOMモジュールのインポート
+import ReactDOM from "react-dom";
+//App関数を使用する。
+import { App } from "./App";
 
-import App from "./App";
-
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
-
-root.render(
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
+//引数の設定
+ReactDOM.render(<App />, document.getElementById("root"));
