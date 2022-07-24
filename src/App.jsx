@@ -10,7 +10,8 @@ export const App = () => {
   //Stateの定義
   const [num, setNum] = useState(0);
   const onClickButton = () => {
-    setNum(num + 1);
+    // setNum(num + 1);
+    setNum((num) => num + 1);
   };
 
   return (
