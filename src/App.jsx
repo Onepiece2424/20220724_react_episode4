@@ -17,7 +17,7 @@ export const App = () => {
     <>
       <h1 style={{ color: "red" }}>こんにちは！</h1>
       <p style={contentPinkStyle}>元気です！</p>
-      <ColoredMessage />
+      <ColoredMessage color="blue" message="お元気ですか？" />
       <button onClick={onClickButton}>ボタン</button>
     </>
   );
