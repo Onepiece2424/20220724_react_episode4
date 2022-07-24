@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 //App関数の定義
 const App = () => {
-  return null;
+  return <h1>こんにちは！</h1>;
 };
 
 //引数の設定
